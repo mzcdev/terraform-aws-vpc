@@ -16,7 +16,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  # source = "github.com/nalbam/terraform-aws-vpc?ref=v0.12.29"
+  # source = "github.com/mzcdev/terraform-aws-vpc?ref=v0.12.1"
   source = "../../"
 
   region = var.region
